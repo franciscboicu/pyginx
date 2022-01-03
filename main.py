@@ -1,7 +1,6 @@
 import os, argparse, sys
 
 class config:
-    IP = '123'
     ETC_NGINX_PATH = '/etc/nginx/' #where sites-available and sites-enabled are located
     ETC_HOSTS_PATH = '/etc/hosts' #where your hosts are located
     VAR_WWW_PATH = '/var/www/' #where your sites are located
